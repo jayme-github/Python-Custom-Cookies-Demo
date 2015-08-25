@@ -24,7 +24,7 @@ def makeCookie(name, value):
         discard=False,
         comment=None,
         comment_url=None,
-        rest=None
+        rest={}
     )
 
 # Create a cookie jar to store our custom cookies.
